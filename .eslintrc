@@ -1,0 +1,37 @@
+#----------------------------------------------------------#
+# File:     .eslintrc
+# Author:   AppFactory UWP
+# Template: nodejs/.eslintrc
+#----------------------------------------------------------#
+
+env:
+    node: true
+    mocha: true
+    es6: true
+
+rules:
+    semi: [2, never]
+    padded-blocks: off
+    prefer-arrow-callback: off
+    func-names: off
+    space-before-function-paren: warn
+    curly: warn
+    no-else-return: error
+    comma-dangle: off
+    no-undef: error
+    radix: off
+    consistent-return: warn
+    no-param-reassign: off
+    vars-on-top: off
+    no-plusplus: off
+    max-len: off
+    no-inner-declarations: warn
+    no-restricted-syntax: [off]
+    no-underscore-dangle: off
+    brace-style: warn
+    global-require: off
+
+parserOptions:
+    ecmaVersion: 6
+
+# end .eslintrc
