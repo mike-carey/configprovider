@@ -1,0 +1,34 @@
+{
+  "name": "configbuilder",
+  "version": "0.0.1",
+  "description": "Provides a common entry point for configurations",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'This is a package silly!'",
+    "build": "gulp build",
+    "test": "gulp test",
+    "lint": "gulp eslint:lint",
+    "docs": "gulp jsdocs:build"
+  },
+  "author": "Mike Carey <michael.r.carey@att.net>",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/mike-carey/configprovider.git"
+  },
+  "keywords": [
+      "config"
+  ],
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-jsdoc3": "^1.0.1",
+    "gulp-mocha": "^4.3.1",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.4.2"
+  }
+}
