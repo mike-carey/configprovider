@@ -13,11 +13,11 @@
   "author": "Mike Carey <michael.r.carey@att.net>",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/mike-carey/configprovider.git"
+    "type": "git",
+    "url": "https://github.com/mike-carey/configprovider.git"
   },
   "keywords": [
-      "config"
+    "config"
   ],
   "devDependencies": {
     "chai": "^4.0.2",
@@ -29,6 +29,10 @@
     "gulp-mocha": "^4.3.1",
     "istanbul": "^0.4.5",
     "jsdoc": "^3.4.3",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "mock-fs": "^4.4.1"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
   }
 }

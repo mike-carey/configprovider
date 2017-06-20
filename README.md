@@ -43,7 +43,7 @@ The configprovider module will load the default configurations and replace any o
 | Key | Type | Default | Description |
 | --- | --- | --- | --- |
 | dir | string | config | The directory that will hold the configuration files. |
-| env | string | config/env | The name of the environment directory for overrides. If `null`, the directory will not be searched (should be used for packages and importable code) |
+| env | string | env | The name of the environment directory for overrides. If `null`, the directory will not be searched (should be used for packages and importable code) |
 | node_env | string | production | The NODE_ENV that should be set.  It allows a different environment to be injected. |
 
 ## Environment Configurations
